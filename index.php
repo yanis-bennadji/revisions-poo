@@ -35,6 +35,10 @@
             <li>
                 <a href="./job06/index.php">Job 06</a>
             </li>
+
+            <li>
+                <a href="./job07/index.php">Job 07</a>
+            </li>
         </ul>
     </main>
     
