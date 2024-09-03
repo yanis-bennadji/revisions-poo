@@ -1,7 +1,7 @@
 <?php
 
 class Product {
-    // Propriétés privées
+    // * Properties
     private int $id;
     private string $name;
     private array $photos;
@@ -12,7 +12,7 @@ class Product {
     private DateTime $updatedAt;
     private int $category_id;
 
-    // Constructeur avec paramètres optionnels
+    // ! __constructor
     public function __construct(
         int $id = 0,
         string $name = '',
@@ -35,7 +35,7 @@ class Product {
         $this->category_id = $category_id;
     }
 
-    // Getters
+    // * get
     public function getId(): int {
         return $this->id;
     }
@@ -72,7 +72,7 @@ class Product {
         return $this->category_id;
     }
 
-    // Setters
+    // * set
     public function setId(int $id): void {
         $this->id = $id;
     }
